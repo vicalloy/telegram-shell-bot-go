@@ -1,5 +1,5 @@
 #!/bin/sh
-export TELEBOT_TOKEN=
+export TELEGRAM_TOKEN=
 export PROXY_SOCKS5=  # 127.0.0.1:8080
-export ENABLED_USER=  # 1079920743
-go run *.go
+export ADMIN_USER_ID=  # 10000000
+go run .
